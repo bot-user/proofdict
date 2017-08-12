@@ -1,0 +1,13 @@
+id: 01BQB1SSC3F40RXKY7D3K8GH1D
+description: ECMAScript and version has a space.
+expected: ECMAScript $1
+patterns:
+  - /ES (\d+)/i
+  - /ES(\d+)/i
+specs:
+  - actual: ES 5
+    expected: ECMAScript 5
+  - actual: ES2015
+    expected: ECMAScript 2015
+tags:
+  - tag
